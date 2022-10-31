@@ -3,7 +3,7 @@ title: 一个 Raycast 插件的诞生
 publish_date: 2022-08-02
 ---
 
-![DocSearch](/extension-og.png)
+![DocSearch](/images/extension-og.png)
 
 事情的起因是在回复 DIYgod 的一条推文之后……
 
