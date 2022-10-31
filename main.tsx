@@ -12,6 +12,9 @@ blog({
     { title: "Twitter", url: "https://twitter.com/Fatpandac" },
     { title: "Telegram", url: "https://t.me/fatpandac" },
   ],
-  favicon: "/images/logo.png"
+  favicon: "/images/logo.png",
+  middlewares: [
+    ga("G-10D6YDNQ9J"),
+  ]
 });
 
