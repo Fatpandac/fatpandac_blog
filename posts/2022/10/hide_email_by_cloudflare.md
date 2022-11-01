@@ -1,7 +1,6 @@
 ---
 title: Hide Email by Cloudflare
 publish_date: 2022-10-22
-cover_html: <image src="https://res.cloudinary.com/daily-now/image/upload/f_auto,q_auto/v1/posts/92edff85273ba9c05b4efba2d2741152"/>
 ---
 在很早之前 Cloudflare 有推出一个新的功能，那就是转发邮件，如果你在 Cloudflare 上有绑定域名那么你可以在管理界面上看到一个 Email 的选项，点进去你就可以开始使用自己的域名来创建对应的邮件地址，之后你还需要绑定一个可以你自己的能接收邮件的电子邮箱地址，再然后为你自己根据自己域名创建的电子邮箱地址来设计一个转发地址，转发到你自己能接收电子邮件的邮箱地址上即可，这样你之后就可以使用这个由自己域名创建的邮箱地址来接收邮件了，因为这个功能你还可以在必要的时候隐藏掉你自己的真实邮箱账号，而且这个功能还有一个隐藏收益，那就是可以帮你引流到你的网站上，因为用自己域名创建的邮箱地址格式为 XXXXX@你的域名。
 
