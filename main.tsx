@@ -6,6 +6,8 @@ blog({
   avatar: "/images/avatar.png",
   avatarClass: "rounded-full",
   author: "Fatpandac",
+  lang: "zh",
+  readtime: true,
   scripts: [
     `
     (function() {
