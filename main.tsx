@@ -15,6 +15,10 @@ blog({
   favicon: "/images/logo.png",
   middlewares: [
     ga("G-10D6YDNQ9J"),
+    redirects({
+      "/docs/other": "",
+      ".html": "",
+    })
   ]
 });
 
