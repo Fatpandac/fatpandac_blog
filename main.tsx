@@ -7,7 +7,6 @@ blog({
   avatarClass: "rounded-full",
   author: "Fatpandac",
   lang: "zh",
-  readtime: true,
   scripts: [
     `
     (function() {
