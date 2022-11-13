@@ -1,6 +1,6 @@
 ---
 title: 不使用 XML  配置 Spring MVC 项目
-publish_date: 2022-11.10
+publish_date: 2022-11-10
 ---
 这个学期开始学习 Spring 框架，在学习 Spring MVC 项目的时候我一开始是使用的 Spring Boot 但是后来老师说不能用这个，因为学的不是这个要是在期末考试的时候使用这个的话不会给分，于是我只能转回最原始的状态。
 
