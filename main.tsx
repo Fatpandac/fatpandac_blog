@@ -1,4 +1,4 @@
-import blog, { redirects } from "blog";
+import blog, { redirects } from "https://deno.land/x/none@v0.0.14/src/none.tsx";
 
 blog({
   title: "Fatpandac",
@@ -38,13 +38,13 @@ blog({
     { title: "GitHub", url: "https://github.com/Fatpandac" },
     { title: "Twitter", url: "https://twitter.com/Fatpandac" },
     { title: "Telegram", url: "https://t.me/fatpandac" },
+    { title: "Mastodon", url: "https://mstdn.social/@Fatpandac" },
   ],
   favicon: "/images/logo.png",
   middlewares: [
     redirects({
       "/docs/other": "",
       ".html": "",
-    })
-  ]
+    }),
+  ],
 });
-

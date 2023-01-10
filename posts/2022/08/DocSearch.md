@@ -15,11 +15,12 @@ publish_date: 2022-08-02
 
 ![DocSearch Raycast's extension interface](/images/AbPWJgKTtSl8aR1.png)
 
-目前支持了大部分的前端文档网站。  
+目前支持了大部分的前端文档网站。\
 欢迎使用同时也欢迎提交更多的文档网站🙏。
 
 <a title="Install DocSearch Raycast Extension" href="https://www.raycast.com/Fatpandac/docsearch#install">
   <img height="64" style="height: 64px" src="https://assets.raycast.com/Fatpandac/docsearch/install_button@2x.png">
 </a>
 
-repo: [https://github.com/Fatpandac/DocSearch](https://github.com/Fatpandac/DocSearch)
+repo:
+[https://github.com/Fatpandac/DocSearch](https://github.com/Fatpandac/DocSearch)

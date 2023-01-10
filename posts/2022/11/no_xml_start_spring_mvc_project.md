@@ -2,11 +2,15 @@
 title: 不使用 XML  配置 Spring MVC 项目
 publish_date: 2022-11-10
 ---
-这个学期开始学习 Spring 框架，在学习 Spring MVC 项目的时候我一开始是使用的 Spring Boot 但是后来老师说不能用这个，因为学的不是这个要是在期末考试的时候使用这个的话不会给分，于是我只能转回最原始的状态。
+
+这个学期开始学习 Spring 框架，在学习 Spring MVC 项目的时候我一开始是使用的
+Spring Boot
+但是后来老师说不能用这个，因为学的不是这个要是在期末考试的时候使用这个的话不会给分，于是我只能转回最原始的状态。
 
 <!-- more -->
 
-我之前之所以使用 Spring Boot 是因为我不想写 XML，于是在被迫不能使用 Spring Boot 之后我需要找到一个不用 XML 的方法来设置 Spring MVC 项目。
+我之前之所以使用 Spring Boot 是因为我不想写 XML，于是在被迫不能使用 Spring Boot
+之后我需要找到一个不用 XML 的方法来设置 Spring MVC 项目。
 
 于是我在网上搜索了一番发现了这个[视频](https://www.youtube.com/watch?v=Hk7fRv-GHpM&t=909s&ab_channel=SeleniumExpress)，根据这个视频整理了如下教程。
 
@@ -63,9 +67,13 @@ publish_date: 2022-11-10
 
 进入项目结构配置页面，Mac 用户可以使用快捷键 `cmd + ;` 进入。
 
-选择 Facets 选项，然后会看到 Web(你的项目名) 以及一个 Spring(你的项目名)，如果没有你可以点击箭头所指的加号，选择 Web 再选择对应的项目，实现手动添加。
+选择 Facets 选项，然后会看到 Web(你的项目名) 以及一个
+Spring(你的项目名)，如果没有你可以点击箭头所指的加号，选择 Web
+再选择对应的项目，实现手动添加。
 
-找到 Web(你的项目名) 这个你项目对应的 Web 之后点击，看到显示的 Web Resource Directories 栏，将里面的内容清空，然后点击栏内的加号输入刚刚创建的 web 文件夹路径即可，填写完后点击 OK 推出项目结构配置页面。
+找到 Web(你的项目名) 这个你项目对应的 Web 之后点击，看到显示的 Web Resource
+Directories 栏，将里面的内容清空，然后点击栏内的加号输入刚刚创建的 web
+文件夹路径即可，填写完后点击 OK 推出项目结构配置页面。
 
 ![项目设置](/images/no_xml_start_spring_mvc_project_1.png)
 
@@ -75,7 +83,9 @@ publish_date: 2022-11-10
 
 ![项目结构](/images/no_xml_start_spring_mvc_project_2.png)
 
-在包 `config` 下创建一个名为 `MainWebAppInitializer` 的 Java 文件，这个文件是用于引导 Spring Web 应用，相当于替换了原来的 `web.xml` ，内部代码如下。
+在包 `config` 下创建一个名为 `MainWebAppInitializer` 的 Java
+文件，这个文件是用于引导 Spring Web 应用，相当于替换了原来的 `web.xml`
+，内部代码如下。
 
 ```java
 import org.springframework.web.WebApplicationInitializer;
@@ -140,7 +150,7 @@ public class WebConfig implements WebMvcConfigurer {
 
 ### Step 6: 编写对应的页面
 
-在 `web` 文件夹下面创建 `/WEB-INF/jsp/index.jsp` 文件，内容如下 
+在 `web` 文件夹下面创建 `/WEB-INF/jsp/index.jsp` 文件，内容如下
 
 ```html
 <H1>Hello World</H1>
